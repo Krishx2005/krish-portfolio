@@ -11,6 +11,15 @@ export const personalInfo = {
 
 export const projects = [
   {
+    title: "Netflix Content Analytics Dashboard",
+    tech: ["React", "D3.js", "Node.js", "Express", "SQLite", "Tailwind CSS"],
+    description:
+      "Data journalism-inspired interactive dashboard exploring Netflix's global content library through 7 narrative chapters. Features a D3 choropleth map, force-directed network graph, animated charts, and a full REST API serving 800+ titles from a relational database.",
+    link: "https://netflix-content-analytics.vercel.app",
+    github: "https://github.com/Krishx2005/netflix-content-analytics",
+    featured: true,
+  },
+  {
     title: "Final Exam Search",
     tech: ["Python", "SQL", "Spring Boot", "React.js", "PostgreSQL"],
     description:
