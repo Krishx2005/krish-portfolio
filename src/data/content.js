@@ -11,6 +11,15 @@ export const personalInfo = {
 
 export const projects = [
   {
+    title: "Sales Performance & Customer Intelligence Hub",
+    tech: ["Python", "R", "Node.js", "Express", "SQLite", "React", "Tailwind CSS", "Power BI", "Tableau"],
+    description:
+      "Enterprise analytics platform analyzing $2.3M in retail sales data across 9,994 transactions. Features RFM customer segmentation, churn risk scoring, linear regression forecasting with 95% CI, and a premium glassmorphism dashboard. Full ETL pipeline with Python, R statistical modeling, REST API, and BI tool exports.",
+    link: "https://sales-intelligence-hub-2gc7.vercel.app",
+    github: "https://github.com/Krishx2005/sales-intelligence-hub",
+    featured: true,
+  },
+  {
     title: "Netflix Content Analytics Dashboard",
     tech: ["React", "D3.js", "Node.js", "Express", "SQLite", "Tailwind CSS"],
     description:
@@ -78,6 +87,7 @@ export const skills = {
     "PostgreSQL",
     "AWS QuickSight",
     "PowerBI",
+    "Tableau",
   ],
   concepts: [
     "Data Analysis",
