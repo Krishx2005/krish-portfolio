@@ -21,7 +21,6 @@ export default function Navbar() {
           Krish Patel
         </a>
 
-        {/* Desktop links */}
         <div className="hidden md:flex items-center gap-6">
           {links.map((l) => (
             <a
@@ -36,7 +35,6 @@ export default function Navbar() {
           <ThemeToggle />
         </div>
 
-        {/* Mobile hamburger */}
         <div className="flex items-center gap-2 md:hidden">
           <ThemeToggle />
           <button
@@ -72,7 +70,6 @@ export default function Navbar() {
         </div>
       </div>
 
-      {/* Mobile menu */}
       {open && (
         <div className="md:hidden border-t border-gray-200 dark:border-gray-700/50 bg-cream/95 dark:bg-darkbg/95 backdrop-blur-sm">
           <div className="px-6 py-4 flex flex-col gap-3">

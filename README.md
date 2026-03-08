@@ -1,25 +1,14 @@
-# Krish Patel — Portfolio
+# Portfolio
 
-Personal portfolio website built with React and Vite, showcasing my experience, projects, and skills as a Data Analyst.
+My personal site. React + Vite + Tailwind, deployed on Vercel.
 
-## 🔗 Live Site
-[krishpatel2026.vercel.app](https://krishpatel2026.vercel.app)
+**Live:** [krish-portfolio-bice.vercel.app](https://krish-portfolio-bice.vercel.app)
 
-## 🛠 Tech Stack
-- React
-- Vite
-- Tailwind CSS
-- Deployed on Vercel
+Has a dark/light toggle, GitHub activity graph, scroll progress bar, and a Konami code easter egg if you're bored.
 
-## 📬 Contact
-- GitHub: [@Krishx2005](https://github.com/Krishx2005)
-- LinkedIn: [linkedin.com/in/krishpatel2005](https://linkedin.com/in/krishpatel2005)
+## Run locally
+
+```bash
+npm install
+npm run dev
 ```
-
----
-
-Just open your `README.md` file in VS Code, delete everything in it, paste this in, update your LinkedIn URL if it's different, then push to GitHub:
-```
-git add .
-git commit -m "update README"
-git push

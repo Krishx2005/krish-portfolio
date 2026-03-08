@@ -14,7 +14,6 @@ export default function Footer() {
   return (
     <footer className="py-12 border-t border-gray-200 dark:border-gray-700/50">
       <div className="flex justify-center items-center gap-6 mb-6">
-        {/* GitHub */}
         <a
           href={personalInfo.github}
           target="_blank"
@@ -33,7 +32,6 @@ export default function Footer() {
           </svg>
         </a>
 
-        {/* LinkedIn */}
         <a
           href={personalInfo.linkedin}
           target="_blank"
@@ -52,7 +50,6 @@ export default function Footer() {
           </svg>
         </a>
 
-        {/* Email */}
         <a
           href={`mailto:${personalInfo.email}`}
           className="text-gray-500 hover:text-accent dark:hover:text-accent-light transition-colors"
@@ -74,7 +71,6 @@ export default function Footer() {
           </svg>
         </a>
 
-        {/* Copy email */}
         <button
           onClick={handleCopy}
           className="text-gray-500 hover:text-accent dark:hover:text-accent-light transition-colors"

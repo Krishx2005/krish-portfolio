@@ -3,7 +3,6 @@ import { personalInfo } from "../data/content";
 
 export default function TerminalIntro() {
   const [displayText, setDisplayText] = useState("");
-  const [done, setDone] = useState(false);
 
   useEffect(() => {
     const text = personalInfo.bio;
@@ -11,10 +10,7 @@ export default function TerminalIntro() {
     const interval = setInterval(() => {
       i++;
       setDisplayText(text.substring(0, i));
-      if (i >= text.length) {
-        clearInterval(interval);
-        setDone(true);
-      }
+      if (i >= text.length) clearInterval(interval);
     }, 25);
     return () => clearInterval(interval);
   }, []);
@@ -30,8 +26,7 @@ export default function TerminalIntro() {
       <div className="p-4 bg-gray-50 dark:bg-[#1a1a2e] font-mono text-sm">
         <span className="text-accent dark:text-accent-light">$ </span>
         <span className="text-gray-600 dark:text-gray-400">{displayText}</span>
-        {!done && <span className="typing-cursor">|</span>}
-        {done && <span className="typing-cursor">|</span>}
+        <span className="typing-cursor">|</span>
       </div>
     </div>
   );

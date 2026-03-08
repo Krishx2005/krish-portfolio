@@ -1,7 +1,7 @@
 export const personalInfo = {
   name: "Krish P. Patel",
-  title: "Data Analytics & Full-Stack Developer",
-  bio: "Statistics student at The Ohio State University passionate about turning data into actionable insights. I build analytics dashboards, data pipelines, and full-stack applications.",
+  title: "Data & Full-Stack Developer",
+  bio: "Statistics student at Ohio State. I like building dashboards, data pipelines, and full-stack apps — mostly with Python, SQL, and React.",
   email: "krishx2005@gmail.com",
   phone: "(330) 980-8962",
   github: "https://github.com/Krishx2005",
@@ -14,7 +14,7 @@ export const projects = [
     title: "Sales Performance & Customer Intelligence Hub",
     tech: ["Python", "R", "Node.js", "Express", "SQLite", "React", "Tailwind CSS", "Power BI", "Tableau"],
     description:
-      "Enterprise analytics platform analyzing $2.3M in retail sales data across 9,994 transactions. Features RFM customer segmentation, churn risk scoring, linear regression forecasting with 95% CI, and a premium glassmorphism dashboard. Full ETL pipeline with Python, R statistical modeling, REST API, and BI tool exports.",
+      "Full-stack dashboard built on the Superstore dataset (9,994 transactions). Python ETL pipeline handles RFM segmentation and churn scoring, Node.js serves the API, React renders everything. Includes linear regression forecasting and Power BI/Tableau exports.",
     link: "https://sales-intelligence-hub-2gc7.vercel.app",
     github: "https://github.com/Krishx2005/sales-intelligence-hub",
     featured: true,
@@ -23,7 +23,7 @@ export const projects = [
     title: "Netflix Content Analytics Dashboard",
     tech: ["React", "D3.js", "Node.js", "Express", "SQLite", "Tailwind CSS"],
     description:
-      "Data journalism-inspired interactive dashboard exploring Netflix's global content library through 7 narrative chapters. Features a D3 choropleth map, force-directed network graph, animated charts, and a full REST API serving 800+ titles from a relational database.",
+      "Interactive dashboard exploring Netflix's content library through 7 chapters. D3 choropleth map, force-directed network graph, animated charts, and a REST API serving 800+ titles from SQLite.",
     link: "https://netflix-content-analytics.vercel.app",
     github: "https://github.com/Krishx2005/netflix-content-analytics",
     featured: true,
@@ -32,19 +32,19 @@ export const projects = [
     title: "Final Exam Search",
     tech: ["Python", "SQL", "Spring Boot", "React.js", "PostgreSQL"],
     description:
-      "Full-stack exam scheduling platform supporting 100+ users. Performed exploratory data analysis to identify usage patterns and designed relational database schemas for structured storage and reporting.",
+      "Exam scheduling app with a Spring Boot backend and React frontend. PostgreSQL for storage, Python scripts for analyzing usage patterns across 100+ users.",
   },
   {
     title: "Hotel Guests Organizer",
     tech: ["Java", "SQL", "AWS", "Docker"],
     description:
-      "Data management platform organizing 5,000+ guest records across multiple businesses. Deployed scalable cloud infrastructure with AWS and Docker, with SQL-driven business intelligence insights.",
+      "Guest records system managing 5,000+ entries across multiple businesses. Java backend, SQL queries for reporting, deployed with AWS and Docker.",
   },
   {
     title: "Full Stack Crypto Swapping Platform",
     tech: ["Solidity", "Web3", "Python", "R"],
     description:
-      "Crypto token swapping platform using Solidity smart contracts and Web3 APIs. Built real-time analytics dashboards monitoring blockchain transaction activity and performance metrics.",
+      "Token swapping platform with Solidity smart contracts and Web3 integration. Added analytics dashboards to track transaction volume and platform metrics.",
   },
 ];
 

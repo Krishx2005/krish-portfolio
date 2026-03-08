@@ -7,7 +7,6 @@ export default function Experience() {
         Experience
       </h2>
 
-      {/* Work */}
       <div className="space-y-8 mb-12">
         {experience.map((job) => (
           <div
@@ -39,7 +38,6 @@ export default function Experience() {
         ))}
       </div>
 
-      {/* Education */}
       <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-8">
         Education
       </h2>
