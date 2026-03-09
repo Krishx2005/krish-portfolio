@@ -10,6 +10,7 @@ import BackToTop from "./components/BackToTop";
 import CursorSpotlight from "./components/CursorSpotlight";
 import Confetti from "./components/Confetti";
 import useKonamiCode from "./hooks/useKonamiCode";
+import { Analytics } from "@vercel/analytics/react";
 
 export default function App() {
   const konamiActivated = useKonamiCode();
@@ -29,6 +30,7 @@ export default function App() {
         <Footer />
       </main>
       <BackToTop />
+      <Analytics />
     </>
   );
 }
