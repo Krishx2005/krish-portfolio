@@ -20,6 +20,15 @@ export const projects = [
     featured: true,
   },
   {
+    title: "KrishAI ⚽",
+    tech: ["FastAPI", "PostgreSQL", "Claude AI", "React", "Recharts"],
+    description:
+      "Natural language to SQL analytics tool for FC 25 player data. Ask questions in plain English about 18,000+ players and get instant results with auto-generated charts.",
+    link: "https://krishai-ruby.vercel.app",
+    github: "https://github.com/Krishx2005/krishai",
+    featured: true,
+  },
+  {
     title: "Netflix Content Analytics Dashboard",
     tech: ["React", "D3.js", "Node.js", "Express", "SQLite", "Tailwind CSS"],
     description:
