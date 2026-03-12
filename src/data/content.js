@@ -11,6 +11,15 @@ export const personalInfo = {
 
 export const projects = [
   {
+    title: "NBA Shot Quality Engine",
+    tech: ["Python", "dbt", "BigQuery", "Airflow", "FastAPI", "React"],
+    description:
+      "Full-stack analytics pipeline that scores 219k+ NBA shot attempts from the 2024-25 season using a custom Shot Quality Score metric. Ingests data from the NBA API, transforms it through dbt in BigQuery, and serves it via FastAPI to a React dashboard with sortable stat tables, team defense rankings, and per-player scatter plots.",
+    link: "https://nba-analytics-mu.vercel.app",
+    github: "https://github.com/Krishx2005/nba-analytics",
+    featured: true,
+  },
+  {
     title: "Sales Performance & Customer Intelligence Hub",
     tech: ["Python", "R", "Node.js", "Express", "SQLite", "React", "Tailwind CSS", "Power BI", "Tableau"],
     description:
