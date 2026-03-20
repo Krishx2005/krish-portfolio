@@ -11,6 +11,26 @@ export const personalInfo = {
 
 export const projects = [
   {
+    title: "FinLens",
+    subtitle: "Financial Disparity Analytics",
+    tech: ["Python", "FastAPI", "React", "Claude API", "scikit-learn", "SQLite"],
+    description:
+      "Alternative credit scoring engine analyzing 4 federal datasets (CFPB, HMDA, Census ACS, FDIC) across 3,222 US counties. Built a RandomForest model to surface geographic lending disparities, with an AI-powered natural language SQL interface and interactive BI dashboard.",
+    link: "https://finlens-credit-gap.vercel.app",
+    github: "https://github.com/Krishx2005/finlens-credit-gap",
+    featured: true,
+  },
+  {
+    title: "RuralYield FinOps",
+    subtitle: "Toledo Hackathon 2026 — Overall Winner",
+    tech: ["Python", "FastAPI", "React", "AWS Bedrock", "ElevenLabs", "Jaseci"],
+    description:
+      "Autonomous micro-investment platform connecting rural farmers with community investors via AI-powered Local Innovation Bonds. 8-step Jaseci agent orchestrates AWS Bedrock risk scoring, Llama 3 compliance checking via Featherless AI, and ElevenLabs voice UX.",
+    link: "https://rural-yield.vercel.app",
+    github: "https://github.com/Toledo-Hackathon/RuralYield",
+    featured: true,
+  },
+  {
     title: "NBA Shot Quality Engine",
     tech: ["Python", "dbt", "BigQuery", "Airflow", "FastAPI", "React"],
     description:
