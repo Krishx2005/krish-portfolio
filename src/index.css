@@ -47,3 +47,81 @@
     opacity: 0;
   }
 }
+
+/* ── Standout card (Exponent) ── */
+@keyframes standout-border {
+  0%   { background-position: 0% 50%; }
+  50%  { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+@keyframes standout-glow-pulse {
+  0%, 100% { box-shadow: 0 0 28px 4px rgba(211, 54, 130, 0.25), 0 0 60px 8px rgba(124, 58, 237, 0.12); }
+  50%       { box-shadow: 0 0 40px 8px rgba(211, 54, 130, 0.40), 0 0 80px 16px rgba(124, 58, 237, 0.20); }
+}
+
+.standout-border-wrap {
+  padding: 2px;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #d33682 0%, #7c3aed 50%, #d33682 100%);
+  background-size: 200% 200%;
+  animation: standout-border 6s ease infinite, standout-glow-pulse 4s ease-in-out infinite;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.standout-border-wrap:hover {
+  transform: translateY(-3px);
+}
+
+.standout-inner {
+  border-radius: 10px;
+  background: linear-gradient(135deg, #0e0e16 0%, #15092b 100%);
+}
+
+.standout-radial-glow {
+  background: radial-gradient(circle, #d33682 0%, #7c3aed 60%, transparent 100%);
+}
+
+.standout-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 12px;
+  border-radius: 9999px;
+  background: rgba(211, 54, 130, 0.15);
+  border: 1px solid rgba(211, 54, 130, 0.35);
+  color: #ff8ac1;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.standout-stat {
+  display: inline-flex;
+  align-items: center;
+  padding: 4px 12px;
+  border-radius: 9999px;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  color: #d1d5db;
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+.standout-tech {
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 9999px;
+  background: rgba(211, 54, 130, 0.12);
+  border: 1px solid rgba(211, 54, 130, 0.25);
+  color: #ff8ac1;
+  font-size: 0.72rem;
+  font-weight: 600;
+  transition: background 0.2s, border-color 0.2s;
+}
+
+.standout-border-wrap:hover .standout-tech {
+  background: rgba(211, 54, 130, 0.20);
+  border-color: rgba(211, 54, 130, 0.45);
+}
