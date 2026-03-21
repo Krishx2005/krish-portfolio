@@ -13,9 +13,9 @@ export const projects = [
   {
     title: "Exponent",
     subtitle: "A/B Testing as a Service",
-    tech: ["Python", "FastAPI", "React", "TypeScript", "PostgreSQL", "Redis", "Celery", "Claude API"],
+    tech: ["Python", "FastAPI", "React", "TypeScript", "PostgreSQL", "Redis", "Celery"],
     description:
-      "Full-stack statistical experimentation platform. Implements power analysis, sequential testing (mSPRT), CUPED variance reduction, subgroup HTE detection, and multiple comparisons correction. Claude API generates plain-English verdicts. Built with FastAPI, React, Celery, Redis, PostgreSQL, and deployed on Railway + Vercel.",
+      "Full-stack statistical experimentation platform implementing power analysis, sequential testing (mSPRT), CUPED variance reduction, subgroup HTE detection, and multiple comparisons correction. AI-generated plain-English verdicts explain results to non-technical stakeholders.",
     link: "https://exponent.vercel.app",
     github: "https://github.com/Krishx2005/exponent",
     stats: ["213 tests passing", "6 statistical modules"],
